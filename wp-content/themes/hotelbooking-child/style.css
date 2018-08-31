@@ -1,0 +1,307 @@
+/*
+
+Theme Name: Hotel Booking Child Theme
+Theme URI: http://hotelbooking.com
+Author: Hotel Booking Child
+Author URI: http://theme.co/
+Description: Make all of your modifications to Hotel Booking in this child theme.
+Version: 1.0.0
+Template: hotelbooking
+
+*/
+
+
+/* -------------------------
+HOMEPAGE HEADER AND HERO IMAGE
+-------------------------- */
+.nd_options_navigation_2 div li a {
+    font-size: 12px !important;
+}
+
+.nd_options_navigation_type .menu li.nd_options_best_label > a:after {
+    display: none;
+}
+
+li.nd_options_book_now_btn.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-1461 {
+    background: #6a6877;
+    padding: 0px 15px;
+    border: 1px solid #fff;
+    font-weight: 400;
+    display: inline-block;
+    width: auto;
+}
+
+.homepageButtonHighlighted {
+    background-color: #6a6877 !important;
+}
+
+/* -------------------------
+CUSTOMIZE GENERAL
+-------------------------- */
+.shn_h1_stylish .wpb_wrapper:first-child {
+    text-align: center;
+}
+
+media only screen and (max-width: 767px) and (min-width: 480px) {
+	.nd_options_container {
+		width: auto !important;
+		padding: 0px 15px !important;
+	}
+}
+
+@media only screen and (max-width: 767px){
+	.nd_booking_container {
+		width: auto !important;
+		padding: 0px 15px !important;
+	}
+}
+
+@media only screen and (max-width: 480px){
+	.nd_booking_container {
+		width: auto !important;
+		padding: 0px 10px !important;
+	}
+}
+
+/* -------------------------
+HOMEPAGE REVIEWS SECTION
+-------------------------- */
+.reviewSectionContainer{
+	text-align: center;
+}
+
+.reviewSectionOuter {
+    width: 100%;
+}
+
+.reviewSection {
+    display: flex;
+}
+
+.reviewSectionTitle {
+	color: #ffffff;
+	text-align: center;
+	font-size: 14px !important;
+	line-height: 30px;
+	letter-spacing: 2px;
+	font-weight: lighter;
+	background: #6a6877;
+	display: inline-block;
+	padding: 2px 15px;
+	border-radius: 4px;
+	border: 1px solid #fff;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	letter-spacing: 0.2em !important;
+	font-weight: 400 !important;
+}
+
+div#TA_cdsratingsonlynarrow210 {
+    margin: 0 auto;
+    text-align: center;
+    width: fit-content;
+	display: flex;
+}
+
+div#JdBadgeDest {
+    display: flex;
+    width: max-content;
+    height: max-content;
+    margin: 0 auto;
+}
+
+.wpb_widgetised_column .widget {
+    margin-bottom: 0px;
+    background: #fff;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    margin: auto;
+    width: 230px;
+    border: 2px solid #6a6877;
+    border-radius: 4px;
+}
+
+.wp-google-content-inner {
+	display: none !important;
+}
+
+
+/* -------------------------
+CUSTOMIZE ROOMS DISPLAY SECTION
+-------------------------- */
+.shn_rooms_section .nd_booking_section {position: relative;}
+
+.shn_rooms_section .nd_booking_section a.nd_booking_background_color_transparent_important {
+	text-align: center;
+	margin-top: 15px;
+	display: block;
+}
+
+.shn_rooms_section input[type="submit"], .shn_rooms_section button[type="submit"] {
+	display: block;
+	text-align: center;
+	margin-top: 15px;
+	width: 100%;
+}
+
+
+.shn_rooms_section .nd_booking_section a.nd_booking_float_left {
+	width: 25%;
+	margin: 10px 0;
+	text-align: center;
+	justify-content: center;
+	display: flex;
+}
+
+.shn_rooms_section .nd_booking_section a.nd_booking_float_left img {
+	margin: 0px;
+}
+
+.shn_rooms_section .nd_booking_section a.nd_booking_float_right{
+	clear: both;
+	margin: 0 auto;
+	margin-top: 15px;
+	display: block;
+	background: #6a6877;
+	padding: 10px 10px;
+	text-align: center;
+	color: #fff;
+	border-radius: 4px;
+}
+
+.shn_rooms_section .nd_booking_section a.nd_booking_float_right:hover, .shn_rooms_section .nd_booking_section a.nd_booking_float_right:focus {
+	background: #444;
+}
+
+.shn_rooms_section .nd_booking_section a.nd_booking_float_right span {
+	font-size: 12px;
+	font-weight: 300;
+	float: none;
+
+}
+
+.shn_rooms_section .nd_booking_section a.nd_booking_float_right span:after {
+	content: '\f054';
+	margin-left: 6px;
+	font-weight: 300;
+	font-size: 9px;
+	font-family: 'FontAwesome';
+	vertical-align: top;
+}
+
+.shn_rooms_section .nd_booking_section a.nd_booking_float_right img { 
+	display: none;
+}
+
+/* -------------------------
+CUSTOMIZE PARALLAX
+-------------------------- */
+#nd_options_page_header_img_layout_5 {
+    /* The image used */
+    background-image: url("img_parallax.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+
+/* -------------------------
+CUSTOMIZE ROOMS TEMPLATE
+-------------------------- */
+#nd_booking_single_cpt_1_header_image_tab ul li:nth-child(n+3) {
+	display: none;	
+}
+
+/* -------------------------
+CUSTOMIZE FOOTER
+-------------------------- */
+.shn_footer {
+    background: #404040;
+}
+
+.shn_footer_inner {
+     display: flex;
+     padding: 20px 15px;
+     font-size: 0;
+     line-height: initial;
+     flex-wrap: wrap;
+     /* width: auto; */
+}
+
+.shn_footer_logo {
+    flex-shrink: 1;
+    font-size: 0;
+    line-height: initial;
+}
+
+.shn_footer_logo a {
+    text-align: left;
+    height: auto;
+    display: inline-block;
+    position: relative;
+}
+
+.shn_footer_menu {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.shn_footer_btn {
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	display: flex;
+}
+
+.shn_footer_btn a {
+	display: flex;
+	padding: 10px;
+	flex-grow: 0;
+	color: rgb(122, 122, 122);
+}
+
+.shn_footer_btn a:hover, .shn_footer_btn a:focus {
+	color: rgb(214, 214, 214);
+}
+
+.shn_footer_btn a:hover span, .shn_footer_btn a:focus span {
+	border-bottom: 1px solid #ddd;
+}
+
+.shn_footer_btn a i {
+	width: auto;
+	font-size: 25px;
+	text-align: center;
+	padding-right: 5px;
+}
+
+.shn_footer_btn a span {
+	font-size: 14px;
+	flex: 1;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	display: flex;
+	padding: 0px 5px;
+	border-bottom: 1px solid transparent;
+}
+
+@media only screen and (max-width: 767px) {
+	.nd_options_container.shn_footer_inner {
+		width: auto;
+	}
+}

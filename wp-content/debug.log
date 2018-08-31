@@ -1,0 +1,7 @@
+[30-Aug-2018 17:35:50 UTC] PHP Notice:  Use of undefined constant REQUEST_URI - assumed 'REQUEST_URI' in /MAMPWeb/Shantila/wp-content/themes/hotelbooking/functions.php on line 73
+[30-Aug-2018 17:35:50 UTC] PHP Stack trace:
+[30-Aug-2018 17:35:50 UTC] PHP   1. {main}() /MAMPWeb/Shantila/wp-admin/admin-ajax.php:0
+[30-Aug-2018 17:35:50 UTC] PHP   2. require_once() /MAMPWeb/Shantila/wp-admin/admin-ajax.php:22
+[30-Aug-2018 17:35:50 UTC] PHP   3. require_once() /MAMPWeb/Shantila/wp-load.php:37
+[30-Aug-2018 17:35:50 UTC] PHP   4. require_once() /MAMPWeb/Shantila/wp-config.php:96
+[30-Aug-2018 17:35:50 UTC] PHP   5. include() /MAMPWeb/Shantila/wp-settings.php:426
