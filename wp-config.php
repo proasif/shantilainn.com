@@ -1,6 +1,6 @@
 <?php
 /**
- * The base configuration for WordPress
+ * The base configuration for WordPress | V
  *
  * The wp-config.php creation script uses this file during the
  * installation. You don't have to use the web site, you can
@@ -20,13 +20,13 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'shantilainn_wp');
+define('DB_NAME', 'wp_shantila');
 
 /** MySQL database username */
 define('DB_USER', 'webinnshant');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'YwwjLc^J&&%p$pC&5JkPU-Lq%gAAqg5K!RzMfrUG');
+define('DB_PASSWORD', 'root');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
