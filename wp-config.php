@@ -20,19 +20,19 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'shantila');
+define('DB_NAME', 'shantilainn_wp');
 
 /** MySQL database username */
-define('DB_USER', 'root');
+define('DB_USER', 'webinnshant');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'R38o90z101!');
+define('DB_PASSWORD', 'YwwjLc^J&&%p$pC&5JkPU-Lq%gAAqg5K!RzMfrUG');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
 
 /** Database Charset to use in creating database tables. */
-define('DB_CHARSET', 'utf8mb4');
+define('DB_CHARSET', 'utf8');
 
 /** The Database Collate type. Don't change this if in doubt. */
 define('DB_COLLATE', '');
@@ -46,14 +46,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         '9?<hoFxs/w)vEJQg pwBTzCU~B}KAwx$FG,LZ<;UY{NUksoGv}Dk<`0v7*(bz u=');
-define('SECURE_AUTH_KEY',  'd(,;ealp6~j9/J@9$!g`M@p69/k^A<3qxOZ0^1D)1ivqSTN;yuKJ5lGfQB9P;op3');
-define('LOGGED_IN_KEY',    'e=xqwoOjGS%0j}=kp[)r9nJ@~.K.~ry{7_i(Xlk1`s$gU4<TAJD74F!ZbfFgX_>@');
-define('NONCE_KEY',        '~Im6 Euq1m?#acakCNP+ x{|u+&iB|6)7wrFA] haA1ek+HGZG1:C^<u@$%trjG2');
-define('AUTH_SALT',        'G@*%SSlL>:.z|0Qdog)8Xq{x=;r=B{wxi!Ss$C7bx!;fFEa.T_8gk~o728Qg%QnJ');
-define('SECURE_AUTH_SALT', '9NAWrA;5EHl$kVD+5 J4;O-h>-W*;s5=7*/J@{<ycDxc;yDbO),>=e{rwW7kG-*.');
-define('LOGGED_IN_SALT',   '#|_L<.0UA}?I}z-/}nq&>KMF},p{:0o8q)unzVx<H$<F~y]+FHsBy #=+kFasLb)');
-define('NONCE_SALT',       '~OIwh*gCqp}Xbyf=4tgl0e9~P[<rjGl*!PpY?2_]w|k5h!Z3nk|qxhIFAoPG>@+3');
+define('AUTH_KEY',         'D6@]6Xu-zJRI#}F%d8-}L!L5gn--ZnV;&ZZ>!(_rVjlL2NG/xG{H1smRBT{tEzB=');
+define('SECURE_AUTH_KEY',  '@P`A^&9Ah?w{l{HKo(h#aP=uV{+:dzp7/$NB4q*}QTk-<|!2fmkkx|+Y,SP=^x(`');
+define('LOGGED_IN_KEY',    '{I.NGWPcU3iq~x&Z&QyYi.!<=);XdQv&@E,(&+oSR bEx*:OY-mA3:xk)bF].3%?');
+define('NONCE_KEY',        '5OkVc]ArScg-Tb?SfM[8.M)w-e38FYK}s||;~X&9ff<&< (c^#9WR*F993.C>|z#');
+define('AUTH_SALT',        '6?y9w+aS..;GbWqqB70xF|PZ}:|/#tGSTZR5~/|KbeOadSqi.i]Ks*FT`-zUMU~w');
+define('SECURE_AUTH_SALT', 'o:FF7lVH+8qrLd{z;KQrr%yR @J7V}Kt>}G7(7AYMd0{1pa24-l-E)g^*_/W~B?u');
+define('LOGGED_IN_SALT',   '7 qQ|WAf)4|17-DA?6:n NSXtF`k)WzG6;*t(|D|}P1@fr9*M3zVPx-ytr[ntfuE');
+define('NONCE_SALT',       'eL#f,vo=G5&(QL9c!g!d27=C{];azgpFXQxjgr|.y.ZP;2|rw9y[_fp0$3?69vlz');
 
 /**#@-*/
 
@@ -86,7 +86,8 @@ define('WP_DEBUG_LOG', false);
 // Turn off the display of error messages on your site
 define('WP_DEBUG_DISPLAY', false);
 
-define('FS_DIRECT', true);
+// make method direct
+define('FS_METHOD', 'direct');
 
 /* That's all, stop editing! Happy blogging. */
 
